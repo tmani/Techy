@@ -1,0 +1,22 @@
+Instructions to run the Conversational Clock Test.
+
+Pre-requisities
+1. Java installed in PC
+2. Eclipse IDE configured in PC (Preferrable)
+
+Steps 
+1. Download the following 2 files into your Java project
+     a. ClockClass is a Java file that contains the logic to display time in Conversational Forma
+     b. ClockClassTest is Junit file that executes the tests. 
+       - Some validations have been included for user to enter valid hours and minutes within the range.
+       - It also prompts the user to repeat tests on different input conditions
+2. Once Step 1 is completed, kindly open the ClockClassTest file to execute tests
+3. Click Run button in Eclipse 
+4. Click on the console window to enter inputs & view the output.
+	a.Enter Hours between 0-24
+	b.Enter Minutes between 0-59
+	c.Output displayed in Conversational Format 
+	d.Option is now provided for user to continue test on another input
+	e.Press Y and steps 4a to 4d will be repeated until any other key other than "Y" or "y" is pressed to stop test
+
+Hope you enjoy the Conversational Clock test runs :))    
